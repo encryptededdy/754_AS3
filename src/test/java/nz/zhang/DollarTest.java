@@ -1,9 +1,8 @@
 package nz.zhang;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertThrows;
-
 import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 public class DollarTest {
     @Test
@@ -14,6 +13,7 @@ public class DollarTest {
         Dollar result = ten.dividedBy(2);
         // Then
         assertEquals(new Dollar(5), result); // You could change 5 to 4 to see the build failure
+        fail(); // fail the test lol
     }
     @Test
     public void testDollarDividedByZero() {
