@@ -1,1 +1,2 @@
 [![Build Status](https://travis-ci.com/encryptededdy/754_AS3.svg?token=yWUrDYvrGQFpxBXqf7zH&branch=master)](https://travis-ci.com/encryptededdy/754_AS3)
+[![codecov](https://codecov.io/gh/encryptededdy/754_AS3/branch/master/graph/badge.svg?token=sJiyXDEz6u)](https://codecov.io/gh/encryptededdy/754_AS3)
