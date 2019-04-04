@@ -1,5 +1,5 @@
 language: java
-jdk: oraclejdk11 # Use JDK 11 because why not
+jdk: oraclejdk8 # Use JDK 8 because cobertura doesn't support JDK 11
 
 script: "mvn cobertura:cobertura"
 
